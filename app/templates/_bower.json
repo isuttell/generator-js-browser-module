@@ -1,0 +1,25 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "main": "<%= _.slugify(projectName) %>.js",
+  "version": "0.0.0",
+  "description": "<%= appname %>",
+  "author": "<% username %> <<%= email %>>",
+  "homepage": "https://github.com/<%= username %>/<%= _.slugify(projectName) %>",
+  "repository": "git://github.com/<%= username %>/<%= _.slugify(projectName) %>",
+  "keywords": [],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "tests",
+    "tasks",
+    "src",
+    "lib",
+    ".gitignore",
+    ".flowconfig",
+    ".jshintrc",
+    ".jscsrc",
+    ".travis.yml",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}

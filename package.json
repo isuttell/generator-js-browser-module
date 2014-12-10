@@ -1,0 +1,36 @@
+{
+  "name": "generator-js-browser-module",
+  "version": "0.1.0",
+  "description": "Yeoman generator to create a browser based Javascript modules",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "isuttell/generator-js-browser-module",
+  "author": {
+    "name": "Isaac Suttell",
+    "email": "isaac@isaacsuttell.com",
+    "url": "https://github.com/isuttell"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^0.5.0",
+    "yeoman-generator": "^0.18.0",
+    "yosay": "^0.3.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
+}
