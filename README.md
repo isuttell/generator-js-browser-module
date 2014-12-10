@@ -1,4 +1,4 @@
-# generator-js-browser-module [![Build Status](https://secure.travis-ci.org/isuttell/generator-js-browser-module.png?branch=master)](https://travis-ci.org/isuttell/generator-js-browser-module)
+# generator-js-browser-module [![Build Status](https://img.shields.io/travis/isuttell/generator-js-browser-module/master.svg?style=flat)](https://travis-ci.org/isuttell/generator-js-browser-module)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -41,10 +41,11 @@ Yeoman has a heart of gold. He's a person with feelings and opinions, but he's v
 
 If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
 
+## Basic Usage
 
 ### Grunt
 
-generator-js-browser-module splits each Grunt plugin into it's own folder located in the `tasks` folder and each additional registered task in the `register` folder. Adding a new Grunt tasks is as simple as copying an existing config file, updating it, and saving in the save folder. Grunt will automatically read and process everything in the config folder. In addition to that, you do not need to manually load any tasks. [jit-grunt](https://www.npmjs.com/package/jit-grunt) lazy loads modules as needed.
+Gruntfiles can become massive rather quickly. To combat this, generator-js-browser-module splits each Grunt task option into it's own file located in the `tasks` folder and each additional registered task in the `register` folder. Adding a new Grunt tasks is as simple as copying an existing config file, updating it, and saving in the save folder. Grunt will automatically read and process everything in the config folder. In addition to that, you do not need to manually load any tasks. [jit-grunt](https://www.npmjs.com/package/jit-grunt) lazy loads modules as needed.
 
 #### Default Task
 
@@ -59,7 +60,7 @@ The `grunt test` command runs any unit tests then, jshint, jscs, and flow.
 The `grunt build` command runs the `test` command then concats everything in the `src/` folder and minifies it.
 
 
-### Testing
+### Unit Testing
 
 generator-js-browser-module uses [Jasmine](http://jasmine.github.io/) and [Karma](http://karma-runner.github.io/0.12/index.html) for unit testing. Tests are kept in the `tests/specs` folder and are run with the `npm test` command.
 
