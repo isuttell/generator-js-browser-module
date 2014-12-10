@@ -1,4 +1,4 @@
-# generator-js-browser-module [![Build Status](https://img.shields.io/travis/isuttell/generator-js-browser-module/master.svg?style=flat)](https://travis-ci.org/isuttell/generator-js-browser-module)
+# generator-js-browser-module [![Build Status](https://img.shields.io/travis/isuttell/generator-js-browser-module/master.svg?style=flat)](https://travis-ci.org/isuttell/generator-js-browser-module) [![npm Version](https://img.shields.io/npm/v/generator-js-browser-module.svg?style=flat)](https://www.npmjs.org/package/generator-js-browser-module)
 
 > [Yeoman](http://yeoman.io) generator
 
