@@ -4,7 +4,12 @@
   "description": "Yeoman generator to create a browser based Javascript modules",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "isuttell/generator-js-browser-module",
+  "homepage": "https://github.com/isuttell/generator-js-browser-module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isuttell/generator-js-browser-module.git"
+  },
+  "readmeFilename": "README.md",
   "author": {
     "name": "Isaac Suttell",
     "email": "isaac@isaacsuttell.com",
