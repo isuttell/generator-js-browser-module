@@ -10,9 +10,11 @@ describe('js-browser-module:app', function () {
     helpers.run(path.join(__dirname, '../app'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
       .withOptions({ 'skip-install': true })
-      // .withPrompt({
-      //   someOption: true
-      // })
+      .withPrompt({
+        name: 'temp app',
+        username: 'js-browser-module',
+        email: 'js-browser-module@test.com'
+      })
       .on('end', done);
   });
 
